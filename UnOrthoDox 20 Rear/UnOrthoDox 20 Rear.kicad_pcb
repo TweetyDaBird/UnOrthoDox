@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../Gerber/")
+      (outputdirectory "../Gerbers/")
     )
   )
 
@@ -211,7 +211,7 @@
   (gr_line (start 104.27 35.14) (end 104.27 126.38) (layer "Edge.Cuts") (width 0.1) (tstamp 94573255-1456-46c6-bc48-062ba73311b3))
   (gr_arc (start 107.27 129.38) (mid 105.14868 128.50132) (end 104.27 126.38) (layer "Edge.Cuts") (width 0.1) (tstamp caa990f2-ee9e-4e91-b5b0-8039316173b6))
   (gr_arc (start 189.46 32.14) (mid 191.58132 33.01868) (end 192.46 35.14) (layer "Edge.Cuts") (width 0.1) (tstamp ec02cb87-6995-459f-bad6-7041fec4fbb9))
-  (gr_text "1. Solder ALL diodes. (Place the line on the diode to the marking on PCB)\n\n2. Determine the layout and solder the hotswap sockets needed.\n   - Keep in mind that sockets overlap on the optional placements.\n   - Do NOT attempt to solder all sockets!\n\n3. Solder reset switch, and optionally the powerswitch for a wireless build.\n\n4. Solder capacitors for optional Encoders. (unidirectional)\n\n5. Solder RGB LED's in place. (Orient notched leg to marking)\n   - Solder the RGB ONLY for the switch positions used!\n   - RGB's for optional layouts are in paralell and will not work if all are soldered!\n\n6. Solder controller/socket for controller. \n   - Cut socket strip to use only the marked pins. \n   - Solder pins only in the used holes!\n   - Diode legs is preferred over pin strip!\n\n7. Solder optional Endcoders in place.\n\n8. For a wireless build, solder the battery (Red = (+) Positive, Black = (-) Negative) \n   \n   Warning! The n!n charging unfortunately breaks if you so much as touch\n   the wires to the incorrect poles! Use tape, and solder on at the time!\n\n9. Assemble & Enjoy!" (at 116.93 78.75) (layer "F.SilkS") (tstamp 2c33b3d2-1d9c-4f08-b709-b5004e20a6b6)
+  (gr_text "1. Solder ALL diodes. (Place the line on the diode to the marking on PCB)\n\n2. Determine the layout and solder the hotswap sockets needed.\n   - Keep in mind that sockets overlap on the optional placements.\n   - Do NOT attempt to solder all sockets!\n\n3. Solder reset switch, and optionally the powerswitch for a wireless build.\n\n4. Solder capacitors for optional Encoders. (unidirectional)\n\n5. Solder RGB LED's in place. (Orient notched leg to marking)\n   - Solder the RGB ONLY for the switch positions used!\n   - RGB's for optional layouts are in paralell and will not work if all are soldered!\n\n6. Solder controller/socket for controller. \n   - Cut socket strip to use only the marked pins. \n   - Solder pins only in the used holes!\n   - Diode legs is preferred over pin strip!\n\n7. Solder optional Endcoders in place.\n\n8. For a wireless build, solder the battery (Red = (+) Positive, Black = (-) Negative) \n   \n   Warning! The n!n charging unfortunately breaks if you so much as touch\n   the wires to the incorrect poles! Use tape, and solder one at the time!\n\n9. Assemble & Enjoy!" (at 116.93 78.75) (layer "F.SilkS") (tstamp 2c33b3d2-1d9c-4f08-b709-b5004e20a6b6)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "JLCJLCJLCJLC" (at 165.2 49.13) (layer "F.SilkS") (tstamp 387be6ee-8562-4c67-852a-f72141ef609c)
