@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (title "UnOrthoDox 20")
-    (date "2023-04-15")
+    (title "UnOrthoDox 17")
+    (date "2023-07-11")
     (rev "v1.0.0")
     (company "Tweety's Wild Thinking")
     (comment 1 "Markus Knutsson <markus.knutsson@tweety.se>")
@@ -493,6 +493,26 @@
         )
       )
     )
+    (symbol "Keyboard Switches:Stabilizer_2u_MX" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "ST1" (at 0 -1.27 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "Stabilizer_2u_MX" (at 0 1.27 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (symbol "Stabilizer_2u_MX_0_1"
+        (circle (center 0 0) (radius 4.0132)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "Keyboard_Controllers:RP2040-Zero" (in_bom yes) (on_board yes)
       (property "Reference" "RZ" (at -1.27 4.572 90)
         (effects (font (size 1.27 1.27)))
@@ -864,14 +884,11 @@
     )
   )
 
-  (junction (at 231.902 74.422) (diameter 0) (color 0 0 0 0)
-    (uuid 0096e1ea-da2a-43f4-8d67-fd6a14f0bb2d)
-  )
   (junction (at 60.198 230.886) (diameter 0) (color 0 0 0 0)
     (uuid 06ed2446-5c55-4cd5-99c9-ed970bba06d5)
   )
   (junction (at 242.062 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 098389d8-a24c-4786-90ef-48ef7ebe3029)
+    (uuid 091cb0c9-5d2d-4116-8500-ab5e38917c22)
   )
   (junction (at 242.062 37.592) (diameter 0) (color 0 0 0 0)
     (uuid 09adf23a-621e-41c0-91bd-90aa9cdd87c9)
@@ -879,20 +896,17 @@
   (junction (at 60.198 195.072) (diameter 0) (color 0 0 0 0)
     (uuid 0ae2e2dc-60dc-44be-bd51-cf7ea8af30e9)
   )
-  (junction (at 204.47 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 0be676c3-364a-436b-a9b7-6c45ccf96ce1)
+  (junction (at 204.47 103.378) (diameter 0) (color 0 0 0 0)
+    (uuid 0d499c94-7d6c-47e2-ac6b-8ec5ef32acd3)
   )
   (junction (at 38.608 179.832) (diameter 0) (color 0 0 0 0)
     (uuid 0d538eb1-74ad-4313-8a35-867b08e71180)
   )
-  (junction (at 231.902 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 0e3d72e1-ffa8-446f-b583-36a569c6ccf9)
+  (junction (at 218.186 103.378) (diameter 0) (color 0 0 0 0)
+    (uuid 2427a3ce-2ef7-4ec2-a36d-033b621e197c)
   )
   (junction (at 132.08 105.156) (diameter 0) (color 0 0 0 0)
     (uuid 2550c87f-042a-404f-a881-6c7c6ca4a08f)
-  )
-  (junction (at 255.778 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 2a71fab5-4fef-4533-b66c-5fa3728a8055)
   )
   (junction (at 228.346 37.592) (diameter 0) (color 0 0 0 0)
     (uuid 2b030b9e-c4c1-4d2f-a114-f708fe7f5634)
@@ -915,20 +929,17 @@
   (junction (at 214.63 66.802) (diameter 0) (color 0 0 0 0)
     (uuid 389a187a-a1e1-4b08-9d47-f73b17fb8853)
   )
-  (junction (at 255.778 52.07) (diameter 0) (color 0 0 0 0)
-    (uuid 38e8f333-fcfc-4c53-80de-54906894a248)
-  )
   (junction (at 231.902 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 3b2a5adf-4f8f-4609-9fd6-580e819a3e21)
   )
   (junction (at 38.608 248.666) (diameter 0) (color 0 0 0 0)
     (uuid 41e5afc2-b29e-4b5b-948a-1c6bb5d523c8)
   )
-  (junction (at 255.778 66.802) (diameter 0) (color 0 0 0 0)
-    (uuid 43504af8-fef1-454c-9bb5-eecedb4603d7)
-  )
   (junction (at 81.788 215.646) (diameter 0) (color 0 0 0 0)
     (uuid 44a9b6df-ae17-4384-bf98-24d9b383b8ca)
+  )
+  (junction (at 204.47 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid 45763ddf-c572-4f36-bfe5-30907bd5a20a)
   )
   (junction (at 38.608 197.612) (diameter 0) (color 0 0 0 0)
     (uuid 49d645be-5070-4120-99fc-522fb59795ab)
@@ -941,6 +952,9 @@
   )
   (junction (at 38.608 212.852) (diameter 0) (color 0 0 0 0)
     (uuid 4e74d2ec-b6e5-4a51-ae54-5eefda43f205)
+  )
+  (junction (at 95.504 223.266) (diameter 0) (color 0 0 0 0)
+    (uuid 5193468e-071d-497f-a6d3-41dff265f200)
   )
   (junction (at 214.63 37.592) (diameter 0) (color 0 0 0 0)
     (uuid 5c355ba8-4dbb-4c8b-94a5-d690cf617cf0)
@@ -960,6 +974,9 @@
   (junction (at 38.608 215.646) (diameter 0) (color 0 0 0 0)
     (uuid 68ab5e09-6157-4efe-a28e-a0068b0fee06)
   )
+  (junction (at 228.346 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid 6c0a7ac7-a874-4e5b-8913-5be523da0f62)
+  )
   (junction (at 81.788 179.832) (diameter 0) (color 0 0 0 0)
     (uuid 6f1400c5-4f94-41fb-82a9-49d809d03189)
   )
@@ -969,11 +986,8 @@
   (junction (at 132.08 115.316) (diameter 0) (color 0 0 0 0)
     (uuid 70d66daf-431d-4354-8168-3771c9d48c1c)
   )
-  (junction (at 60.198 233.426) (diameter 0) (color 0 0 0 0)
-    (uuid 8169bf13-a3bc-4419-abbe-b4336db7e4cb)
-  )
-  (junction (at 81.788 248.666) (diameter 0) (color 0 0 0 0)
-    (uuid 831046ec-49fe-44da-8713-adb4b6bceb86)
+  (junction (at 218.186 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid 7ed7749a-4d9c-4551-bccf-d0cf70b79c4f)
   )
   (junction (at 38.608 175.006) (diameter 0) (color 0 0 0 0)
     (uuid 85d4399b-b3c3-4167-8c18-362fff8ef89a)
@@ -984,14 +998,14 @@
   (junction (at 132.08 110.236) (diameter 0) (color 0 0 0 0)
     (uuid 895d6c52-ac4a-419d-8e04-7be7e1b658ba)
   )
-  (junction (at 228.346 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 8ac32274-aa23-4e3d-b53e-0833cabeaa71)
-  )
   (junction (at 204.47 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 8b07b9f4-e4e6-4dde-97be-4b96cf916b30)
   )
-  (junction (at 204.47 103.378) (diameter 0) (color 0 0 0 0)
-    (uuid 95756a4b-3ebb-4797-8d84-225af5defb99)
+  (junction (at 231.902 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid 8d04e018-f770-4f29-b864-9bbb9ddda0de)
+  )
+  (junction (at 110.744 232.156) (diameter 0) (color 0 0 0 0)
+    (uuid 8ed53a1d-dad5-447f-b73c-3a2a1614f430)
   )
   (junction (at 38.608 233.426) (diameter 0) (color 0 0 0 0)
     (uuid 998ae4fd-a35f-4e1b-9abc-4ae8a29fe7cf)
@@ -1005,11 +1019,11 @@
   (junction (at 81.788 195.072) (diameter 0) (color 0 0 0 0)
     (uuid 9dd91c90-4677-4239-a260-d02c22a8f1ed)
   )
-  (junction (at 81.788 233.426) (diameter 0) (color 0 0 0 0)
-    (uuid a1a0c0b9-c2f6-4297-9e02-826d9d241b74)
-  )
   (junction (at 231.902 45.212) (diameter 0) (color 0 0 0 0)
     (uuid a2d7c88d-e722-4e50-bde4-bdf15f2605fc)
+  )
+  (junction (at 214.63 95.758) (diameter 0) (color 0 0 0 0)
+    (uuid b2e45300-0a25-4f42-8975-9435dd5eb635)
   )
   (junction (at 59.944 159.766) (diameter 0) (color 0 0 0 0)
     (uuid b5a86dc8-4995-4d17-aca9-8844934a02d8)
@@ -1023,17 +1037,11 @@
   (junction (at 151.638 119.126) (diameter 0) (color 0 0 0 0)
     (uuid c5001216-b1f7-406e-907f-b4245141ab69)
   )
-  (junction (at 214.63 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid c58bd19a-d87a-4c39-a38e-3954c3c361e7)
-  )
-  (junction (at 218.186 103.378) (diameter 0) (color 0 0 0 0)
-    (uuid c9afc93f-0c1b-406b-855d-49daea329677)
-  )
   (junction (at 38.608 195.072) (diameter 0) (color 0 0 0 0)
     (uuid ca10bc2b-ecda-4c4d-a287-149286bbb12d)
   )
   (junction (at 60.198 248.666) (diameter 0) (color 0 0 0 0)
-    (uuid cb2958e6-6436-4173-8627-64b74e60eeaa)
+    (uuid cc3954a2-1389-4c1d-81e5-a6b4306e1a5a)
   )
   (junction (at 81.534 175.006) (diameter 0) (color 0 0 0 0)
     (uuid cce50460-b11e-48cb-9a6f-ef41087b754b)
@@ -1041,17 +1049,17 @@
   (junction (at 152.146 87.884) (diameter 0) (color 0 0 0 0)
     (uuid d2928fa1-c9e3-4036-9eb7-fbcb93e2f054)
   )
-  (junction (at 231.902 103.378) (diameter 0) (color 0 0 0 0)
-    (uuid e183cafe-e651-4c86-97ea-be764c027798)
-  )
-  (junction (at 218.186 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid e2a8c27c-df47-46d9-bbc6-1d67c079e403)
+  (junction (at 214.63 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid d4c01731-56c6-4b2d-bcce-f32268f2bace)
   )
   (junction (at 218.186 74.422) (diameter 0) (color 0 0 0 0)
     (uuid e65405b2-6c48-4f1c-a757-37e22a1d3f48)
   )
   (junction (at 214.63 52.07) (diameter 0) (color 0 0 0 0)
     (uuid e74a27ec-fade-43ad-a287-8f62c6bc9548)
+  )
+  (junction (at 60.198 233.426) (diameter 0) (color 0 0 0 0)
+    (uuid e7b2b403-ca3d-4270-8f53-c41b483a0f8f)
   )
   (junction (at 81.788 230.886) (diameter 0) (color 0 0 0 0)
     (uuid ec75e6df-5e31-4e13-b2c9-04d214b57c5e)
@@ -1061,6 +1069,9 @@
   )
   (junction (at 218.186 45.212) (diameter 0) (color 0 0 0 0)
     (uuid efd899f1-d196-4314-b847-ff7c43dc9c3d)
+  )
+  (junction (at 255.778 67.31) (diameter 0) (color 0 0 0 0)
+    (uuid f310a309-1722-48c5-9d6a-b6a62f0ee9c3)
   )
   (junction (at 228.346 52.07) (diameter 0) (color 0 0 0 0)
     (uuid f5a17533-d692-4d79-8abc-35c7957dc269)
@@ -1072,6 +1083,7 @@
     (uuid fb4fb0cb-9c30-49f1-893e-ad87d527838f)
   )
 
+  (no_connect (at 67.818 241.046) (uuid 50b9954e-b4f5-40db-b8de-d27b3651ffc9))
   (no_connect (at 71.628 102.616) (uuid 542b1f57-4ce0-46f0-a125-911309443978))
   (no_connect (at 43.688 110.236) (uuid 67fb2261-c627-4ed0-a2f3-69f896234831))
   (no_connect (at 43.688 100.076) (uuid 7edf0fc2-7956-4193-927a-3479884be65c))
@@ -1079,7 +1091,6 @@
   (no_connect (at 71.628 110.236) (uuid 835d827a-3843-44ba-a020-8fa485af26d1))
   (no_connect (at 71.628 97.536) (uuid 92c13a59-6b38-4de2-aa24-2f4697ee6750))
   (no_connect (at 43.688 102.616) (uuid c0c35401-202e-4231-998a-804c5ebe6f82))
-  (no_connect (at 110.744 241.046) (uuid c542bd9d-65e9-44c4-a602-1b7471f47541))
   (no_connect (at 71.628 105.156) (uuid d4f81eba-15e8-45f6-a138-abd3327ac46d))
 
   (wire (pts (xy 228.346 37.592) (xy 228.346 52.07))
@@ -1098,10 +1109,6 @@
     (stroke (width 0) (type default))
     (uuid 0bddd790-e2a7-41bf-a927-9a0efcb0f651)
   )
-  (wire (pts (xy 81.788 248.666) (xy 103.124 248.666))
-    (stroke (width 0) (type default))
-    (uuid 0c4dd423-bbdf-4b83-82fc-a77f928fbba0)
-  )
   (wire (pts (xy 52.578 223.266) (xy 46.228 223.266))
     (stroke (width 0) (type default))
     (uuid 0c6d71e4-2b65-4919-a8c2-f2db07bf6628)
@@ -1109,6 +1116,14 @@
   (wire (pts (xy 95.504 205.232) (xy 89.408 205.232))
     (stroke (width 0) (type default))
     (uuid 0ca7beb0-e7a8-4836-8a39-a9e624cabed8)
+  )
+  (wire (pts (xy 204.47 88.9) (xy 218.186 88.9))
+    (stroke (width 0) (type default))
+    (uuid 0f495099-af55-4571-a201-51484028f679)
+  )
+  (wire (pts (xy 255.778 67.31) (xy 255.778 81.28))
+    (stroke (width 0) (type default))
+    (uuid 10b5edfa-3ba9-4243-9ee3-6eb4baedc2f2)
   )
   (wire (pts (xy 132.08 110.236) (xy 144.018 110.236))
     (stroke (width 0) (type default))
@@ -1202,10 +1217,6 @@
     (stroke (width 0) (type default))
     (uuid 3f3bd8ba-1e8b-4afc-9add-399ee622205d)
   )
-  (wire (pts (xy 255.778 37.592) (xy 255.778 52.07))
-    (stroke (width 0) (type default))
-    (uuid 3ffbf3d6-30b0-4d2c-8f8d-252d4a60b1fb)
-  )
   (wire (pts (xy 197.612 74.422) (xy 204.47 74.422))
     (stroke (width 0) (type default))
     (uuid 4471eebf-d9a3-486a-a47d-d549cb716a7e)
@@ -1230,10 +1241,6 @@
     (stroke (width 0) (type default))
     (uuid 4fb4db98-eafb-4a37-9db2-8435be00c3f6)
   )
-  (wire (pts (xy 231.902 88.9) (xy 245.618 88.9))
-    (stroke (width 0) (type default))
-    (uuid 510d3073-6229-498a-9bd5-ab38a668c10b)
-  )
   (wire (pts (xy 144.526 81.534) (xy 144.526 84.074))
     (stroke (width 0) (type default))
     (uuid 52307943-1ed1-4365-9b44-5362daf2e8f2)
@@ -1246,6 +1253,10 @@
     (stroke (width 0) (type default))
     (uuid 55f10abc-0b3e-4ca1-8368-1ae70c79d575)
   )
+  (wire (pts (xy 60.198 233.426) (xy 103.124 233.426))
+    (stroke (width 0) (type default))
+    (uuid 561bd4fc-b073-439e-80e9-7d145d991c20)
+  )
   (wire (pts (xy 95.504 223.266) (xy 89.408 223.266))
     (stroke (width 0) (type default))
     (uuid 56e80a6c-9789-4170-a404-273081009342)
@@ -1253,10 +1264,6 @@
   (wire (pts (xy 60.198 197.612) (xy 81.788 197.612))
     (stroke (width 0) (type default))
     (uuid 59f55070-b3f4-4abc-961a-c1ef8eed9f27)
-  )
-  (wire (pts (xy 242.062 81.28) (xy 242.062 95.758))
-    (stroke (width 0) (type default))
-    (uuid 5d7e8f2c-6e32-4684-a009-9f897ca3a021)
   )
   (wire (pts (xy 52.324 167.386) (xy 46.228 167.386))
     (stroke (width 0) (type default))
@@ -1270,6 +1277,10 @@
     (stroke (width 0) (type default))
     (uuid 63a6d092-e8af-432a-a7c6-3829520d09d6)
   )
+  (wire (pts (xy 228.346 81.28) (xy 228.346 95.758))
+    (stroke (width 0) (type default))
+    (uuid 66099397-0978-4bc6-9637-b89eaa439dde)
+  )
   (wire (pts (xy 204.47 74.422) (xy 218.186 74.422))
     (stroke (width 0) (type default))
     (uuid 66c5399a-c23f-4893-a965-0d6e69193af1)
@@ -1278,13 +1289,13 @@
     (stroke (width 0) (type default))
     (uuid 67456844-833a-4902-a3d1-0478578ee455)
   )
-  (wire (pts (xy 81.788 233.426) (xy 103.124 233.426))
-    (stroke (width 0) (type default))
-    (uuid 69f37ee9-4e40-427f-b360-54e672a3fd82)
-  )
   (wire (pts (xy 228.346 52.07) (xy 228.346 66.802))
     (stroke (width 0) (type default))
     (uuid 6b792753-3fb5-4d87-a7a7-f7efd1f72f5d)
+  )
+  (wire (pts (xy 218.186 88.9) (xy 231.902 88.9))
+    (stroke (width 0) (type default))
+    (uuid 6d074cc1-cabc-4340-adf6-4d90455bc64d)
   )
   (wire (pts (xy 38.608 215.646) (xy 60.198 215.646))
     (stroke (width 0) (type default))
@@ -1306,9 +1317,9 @@
     (stroke (width 0) (type default))
     (uuid 76a6a3fb-c5da-4c22-a1ac-17079d0456e2)
   )
-  (wire (pts (xy 231.902 74.422) (xy 245.618 74.422))
+  (wire (pts (xy 214.63 81.28) (xy 214.63 95.758))
     (stroke (width 0) (type default))
-    (uuid 77c605bc-5a25-4fe6-8f2d-db2c3a8a0dcd)
+    (uuid 79092581-fe7f-4104-80d1-d4553e408fb3)
   )
   (wire (pts (xy 242.062 66.802) (xy 242.062 81.28))
     (stroke (width 0) (type default))
@@ -1322,17 +1333,17 @@
     (stroke (width 0) (type default))
     (uuid 7b20551e-cecf-447b-83c9-e479bdf0166f)
   )
-  (wire (pts (xy 218.186 88.9) (xy 231.902 88.9))
-    (stroke (width 0) (type default))
-    (uuid 7b478533-1cd3-45d3-a5f6-7bbfa846f69d)
-  )
-  (wire (pts (xy 204.47 103.378) (xy 218.186 103.378))
+  (wire (pts (xy 218.186 103.378) (xy 231.902 103.378))
     (stroke (width 0) (type default))
     (uuid 7b9f5456-edd3-41eb-aa26-673b10b6bfc1)
   )
   (wire (pts (xy 38.608 197.612) (xy 60.198 197.612))
     (stroke (width 0) (type default))
     (uuid 7c8b2edd-d872-4009-821d-a7c11162f190)
+  )
+  (wire (pts (xy 242.062 81.28) (xy 242.062 95.758))
+    (stroke (width 0) (type default))
+    (uuid 7ef5d06a-62cf-4be3-a3af-cb8effb1415e)
   )
   (wire (pts (xy 28.448 230.886) (xy 38.608 230.886))
     (stroke (width 0) (type default))
@@ -1349,6 +1360,10 @@
   (wire (pts (xy 31.242 212.852) (xy 38.608 212.852))
     (stroke (width 0) (type default))
     (uuid 88fdece1-3231-46c4-8ed9-cc05f4a3bf64)
+  )
+  (wire (pts (xy 95.504 223.266) (xy 95.504 241.046))
+    (stroke (width 0) (type default))
+    (uuid 8904da82-a9de-402a-91f5-596cb04ecc30)
   )
   (wire (pts (xy 218.186 59.69) (xy 231.902 59.69))
     (stroke (width 0) (type default))
@@ -1390,10 +1405,6 @@
     (stroke (width 0) (type default))
     (uuid 951f0b01-d3ea-41a1-83d2-39dedbfc084e)
   )
-  (wire (pts (xy 255.778 52.07) (xy 255.778 66.802))
-    (stroke (width 0) (type default))
-    (uuid 953c4b68-17c2-4020-aedd-a7e1ac8fe06f)
-  )
   (wire (pts (xy 129.032 115.316) (xy 132.08 115.316))
     (stroke (width 0) (type default))
     (uuid 9605cfb4-20ab-471d-a22b-fbf74a1eb4d6)
@@ -1402,21 +1413,29 @@
     (stroke (width 0) (type default))
     (uuid 97c13c18-0ab9-46a1-ba7b-7e5457580d90)
   )
+  (wire (pts (xy 231.902 88.9) (xy 245.618 88.9))
+    (stroke (width 0) (type default))
+    (uuid 97ca5f28-c49f-4e3b-b2ec-5e5d6bacfda5)
+  )
   (wire (pts (xy 60.198 179.832) (xy 81.788 179.832))
     (stroke (width 0) (type default))
     (uuid 98fe7a0c-de76-4735-8d07-214d0cf5d772)
+  )
+  (wire (pts (xy 204.47 103.378) (xy 218.186 103.378))
+    (stroke (width 0) (type default))
+    (uuid 99ebfcb7-b11a-4a46-a30b-d190b5aff7b5)
   )
   (wire (pts (xy 27.94 233.426) (xy 38.608 233.426))
     (stroke (width 0) (type default))
     (uuid 9a784f73-dc6f-40bb-b41e-2d323991bd59)
   )
-  (wire (pts (xy 214.63 66.802) (xy 214.63 81.28))
-    (stroke (width 0) (type default))
-    (uuid 9af943e6-9b21-4cf7-96fe-e4e8d9f1386f)
-  )
   (wire (pts (xy 197.612 103.378) (xy 204.47 103.378))
     (stroke (width 0) (type default))
     (uuid 9f265e84-2ffe-4b70-9624-f4f8378e395d)
+  )
+  (wire (pts (xy 110.744 232.156) (xy 110.744 241.046))
+    (stroke (width 0) (type default))
+    (uuid a08ebcef-609a-4926-af41-3796d5651f20)
   )
   (wire (pts (xy 38.608 248.666) (xy 60.198 248.666))
     (stroke (width 0) (type default))
@@ -1430,29 +1449,13 @@
     (stroke (width 0) (type default))
     (uuid a6260e98-3f16-4061-a343-44f2e272162d)
   )
-  (wire (pts (xy 255.778 66.802) (xy 255.778 81.28))
-    (stroke (width 0) (type default))
-    (uuid a989a92e-e593-4c74-87a8-3e14e3ddb1be)
-  )
   (wire (pts (xy 60.198 212.852) (xy 81.788 212.852))
     (stroke (width 0) (type default))
     (uuid ab78da33-6228-4a3d-b83c-128491467df4)
   )
-  (wire (pts (xy 95.504 241.046) (xy 89.408 241.046))
-    (stroke (width 0) (type default))
-    (uuid ac8ace65-5511-4197-a658-4f860227f464)
-  )
   (wire (pts (xy 67.818 205.232) (xy 74.168 205.232))
     (stroke (width 0) (type default))
     (uuid acd2412b-97b7-48b2-af0c-9e49689c2eaf)
-  )
-  (wire (pts (xy 231.902 103.378) (xy 245.618 103.378))
-    (stroke (width 0) (type default))
-    (uuid acfd675c-9b4e-4e05-ad98-bc4d847022c8)
-  )
-  (wire (pts (xy 228.346 81.28) (xy 228.346 95.758))
-    (stroke (width 0) (type default))
-    (uuid adef246d-3ed2-45e5-8e7d-16756b9bd218)
   )
   (wire (pts (xy 59.944 159.766) (xy 81.534 159.766))
     (stroke (width 0) (type default))
@@ -1470,10 +1473,6 @@
     (stroke (width 0) (type default))
     (uuid b2022098-4717-42fb-b411-e4f5f73c5341)
   )
-  (wire (pts (xy 197.612 88.9) (xy 204.47 88.9))
-    (stroke (width 0) (type default))
-    (uuid b35ce4a2-0b4f-4edc-90c5-6b5a74851051)
-  )
   (wire (pts (xy 110.744 213.614) (xy 30.988 213.614))
     (stroke (width 0) (type default))
     (uuid b757ba85-1427-4639-91f1-5ee87205e657)
@@ -1485,6 +1484,10 @@
   (wire (pts (xy 32.004 159.766) (xy 38.608 159.766))
     (stroke (width 0) (type default))
     (uuid bc4ca8c2-d0c6-4a10-a907-752ee7fe6eb1)
+  )
+  (wire (pts (xy 60.198 248.666) (xy 103.124 248.666))
+    (stroke (width 0) (type default))
+    (uuid bcea5370-0c2e-4b82-bd1c-aa4e72a2aea7)
   )
   (wire (pts (xy 132.08 115.316) (xy 144.018 115.316))
     (stroke (width 0) (type default))
@@ -1506,10 +1509,6 @@
     (stroke (width 0) (type default))
     (uuid cc145200-77d1-4b33-9e83-b89b4dab263f)
   )
-  (wire (pts (xy 60.198 248.666) (xy 81.788 248.666))
-    (stroke (width 0) (type default))
-    (uuid cdfe7952-295d-45f1-aa6c-b22d84563071)
-  )
   (wire (pts (xy 242.062 52.07) (xy 242.062 66.802))
     (stroke (width 0) (type default))
     (uuid ce21ac8f-3586-4927-8eb0-afa5a484cade)
@@ -1518,7 +1517,7 @@
     (stroke (width 0) (type default))
     (uuid cefc1cf9-fff4-48c1-af0a-a0fa337cfa79)
   )
-  (wire (pts (xy 204.47 88.9) (xy 218.186 88.9))
+  (wire (pts (xy 197.612 88.9) (xy 204.47 88.9))
     (stroke (width 0) (type default))
     (uuid d190c267-06b1-43a9-bed6-3a4afda1a8a6)
   )
@@ -1542,17 +1541,13 @@
     (stroke (width 0) (type default))
     (uuid dbaf682a-9b07-4da3-8900-0374ed4b2245)
   )
-  (wire (pts (xy 60.198 233.426) (xy 81.788 233.426))
+  (wire (pts (xy 255.778 37.592) (xy 255.778 67.31))
     (stroke (width 0) (type default))
-    (uuid dcbcc8f3-728d-4bed-901a-1c84bb8b35f3)
+    (uuid dd552ffb-57e8-470e-a9d6-3e29b4ac5b35)
   )
-  (wire (pts (xy 255.778 81.28) (xy 255.778 95.758))
+  (wire (pts (xy 214.63 95.758) (xy 214.63 109.22))
     (stroke (width 0) (type default))
-    (uuid dd2f33b3-ad03-434e-8f8d-1da1bbe8f69c)
-  )
-  (wire (pts (xy 67.818 241.046) (xy 74.168 241.046))
-    (stroke (width 0) (type default))
-    (uuid e2ef7147-4f7e-4dc9-9eea-dbc3b4788c5b)
+    (uuid dfbeb384-eb16-4b6f-a717-54a2dc70a4ba)
   )
   (wire (pts (xy 60.198 230.886) (xy 81.788 230.886))
     (stroke (width 0) (type default))
@@ -1565,10 +1560,6 @@
   (wire (pts (xy 214.63 52.07) (xy 214.63 66.802))
     (stroke (width 0) (type default))
     (uuid efea5d08-301e-426b-bc07-99c345605db6)
-  )
-  (wire (pts (xy 218.186 103.378) (xy 231.902 103.378))
-    (stroke (width 0) (type default))
-    (uuid efed4189-6399-4fc8-a9dc-9a682824288f)
   )
   (wire (pts (xy 129.032 78.994) (xy 132.08 78.994))
     (stroke (width 0) (type default))
@@ -1590,7 +1581,7 @@
     (stroke (width 0) (type default))
     (uuid fa51e88c-9ce3-443a-9f43-6c253c063984)
   )
-  (wire (pts (xy 214.63 81.28) (xy 214.63 95.758))
+  (wire (pts (xy 214.63 66.802) (xy 214.63 81.28))
     (stroke (width 0) (type default))
     (uuid fb6e4081-5e82-40fe-a62c-e61d218a3e89)
   )
@@ -1663,6 +1654,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5443fc56-893e-47f4-ac94-d429ce2f463c)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 120.8165 73.914 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ALT" (shape input) (at 204.47 95.758 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 554115fd-389b-4565-893b-33dce91d1554)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 198.4799 95.758 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1841,6 +1839,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "ALT" (shape input) (at 204.47 109.22 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f487997b-aedb-4b3e-a861-c28ade8372be)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 198.4799 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "Enc_3" (shape input) (at 129.032 115.316 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ffc7a5c2-e6da-424f-abb3-30d70613263b)
@@ -1849,51 +1854,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 231.902 99.568 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 00c57948-7dc7-418e-8191-074ea3734d5c)
-    (property "Reference" "D19" (at 229.362 99.568 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N4148W" (at 234.442 99.568 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 236.347 99.568 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 231.902 99.568 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c84d72b-d7d1-446e-a544-cddc3c4db654))
-    (pin "2" (uuid 2a4e889e-a560-4c8b-b252-6f29294d08fe))
-    (instances
-      (project "UnOrthoDox 20 PCB"
-        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
-          (reference "D19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N4148W") (at 231.902 85.09 90) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 245.618 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08585b2e-dbcd-4e6b-93b2-2c40f6e01957)
-    (property "Reference" "D15" (at 229.362 85.09 0)
+    (property "Reference" "D15" (at 243.078 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 234.442 85.09 0)
+    (property "Value" "1N4148W" (at 248.158 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 236.347 85.09 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 250.063 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 231.902 85.09 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 245.618 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 033db84c-1a86-4508-84d9-d850be474e62))
     (pin "2" (uuid 5621a721-85b7-481b-aa2a-000d790ed6d0))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D15") (unit 1)
         )
@@ -1918,7 +1897,7 @@
     )
     (pin "1" (uuid dab7265e-09ec-4474-ad9e-d30f6dc7bc88))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR012") (unit 1)
         )
@@ -1926,25 +1905,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 209.55 81.28 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 223.266 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08c691aa-adcf-40d8-8323-0cd78cc5eb2f)
-    (property "Reference" "SW13" (at 208.28 76.2 0)
+    (property "Reference" "SW13" (at 221.996 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 209.55 82.804 0)
+    (property "Value" "SW_MX_HotSwap" (at 223.266 82.804 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 209.55 76.2 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 223.266 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 209.55 76.2 0)
+    (property "Datasheet" "~" (at 223.266 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 32c83930-af12-4b4e-8c1a-250a54e9cf9b))
     (pin "2" (uuid 2a54916c-6ab6-4570-be48-7b968ed91b4a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW13") (unit 1)
         )
@@ -1970,7 +1949,7 @@
     (pin "1" (uuid 5809bbb0-6f68-44a4-9b8f-fec2226284fd))
     (pin "2" (uuid 6f6fa6c9-6954-450f-a610-2d9fd841272a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D4") (unit 1)
         )
@@ -1995,7 +1974,7 @@
     )
     (pin "1" (uuid 77371e51-89e1-4537-9a28-4a4c6169ac50))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR013") (unit 1)
         )
@@ -2023,7 +2002,7 @@
     (pin "3" (uuid b240150f-618a-4b76-b597-a5a2fdf737ff))
     (pin "4" (uuid e6222ec4-4bd7-4822-8f36-3e02d77b39c8))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB13") (unit 1)
         )
@@ -2051,7 +2030,7 @@
     (pin "3" (uuid e321d700-cf76-404f-89a3-246fbf6d5254))
     (pin "4" (uuid 1add914a-226e-43f3-98c8-f7d2de283170))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB14") (unit 1)
         )
@@ -2077,7 +2056,7 @@
     (pin "1" (uuid 1283a141-c57a-460e-ada1-caa732c9ef79))
     (pin "2" (uuid 1fc45c85-6fd7-443e-9422-49ed12d466d2))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D5") (unit 1)
         )
@@ -2102,7 +2081,7 @@
     )
     (pin "1" (uuid be96330d-91c2-43d0-8cc6-ac6b889c5fd9))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR01") (unit 1)
         )
@@ -2110,25 +2089,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 218.186 85.09 90) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 231.902 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13abc4df-447a-4a5f-8cb8-dd4ad2e2cad0)
-    (property "Reference" "D14" (at 215.646 85.09 0)
+    (property "Reference" "D14" (at 229.362 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 220.726 85.09 0)
+    (property "Value" "1N4148W" (at 234.442 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 222.631 85.09 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 236.347 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 218.186 85.09 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 231.902 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9c2c1d4b-b59d-4a5a-8a10-76bff470f212))
     (pin "2" (uuid 11cf1b3f-5249-4fd0-8cf5-097a7349440e))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D14") (unit 1)
         )
@@ -2153,7 +2132,7 @@
     )
     (pin "1" (uuid 89e125ed-f940-4864-b794-f93a65673cdf))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR08") (unit 1)
         )
@@ -2179,7 +2158,7 @@
     (pin "1" (uuid 2fd91e4a-14dd-4145-bf3f-a6c821226147))
     (pin "2" (uuid 1c7baaeb-a952-4f85-9b96-efbd111c3c19))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D1") (unit 1)
         )
@@ -2207,7 +2186,7 @@
     (pin "3" (uuid c1fb01f4-4e05-4ce2-8953-4fd393e03537))
     (pin "4" (uuid 216ba748-e82d-4b7b-baea-121d7ed8701d))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB6") (unit 1)
         )
@@ -2235,7 +2214,7 @@
     (pin "3" (uuid 3f7971f4-c2e9-4dd8-aa1b-d7803b9e51c3))
     (pin "4" (uuid 303a1ec5-c77b-425d-a52f-c83954183dfb))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB10") (unit 1)
         )
@@ -2260,7 +2239,7 @@
     )
     (pin "1" (uuid ad267083-b77b-4148-a518-5e6b4e9bab26))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR015") (unit 1)
         )
@@ -2288,7 +2267,7 @@
     (pin "3" (uuid 990aba47-7e0b-4921-9fa0-0f931e09760b))
     (pin "4" (uuid 2a2eb6d4-7d6f-4081-a7a6-7d6b69222464))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB5") (unit 1)
         )
@@ -2296,25 +2275,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 250.698 81.28 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 209.55 95.758 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27140dca-f956-400d-8910-c63ef75d4da5)
-    (property "Reference" "SW16" (at 249.428 76.2 0)
+    (property "Reference" "SW16" (at 210.82 90.678 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 250.698 82.804 0)
+    (property "Value" "SW_MX_HotSwap" (at 209.55 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 250.698 76.2 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 209.55 90.678 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.698 76.2 0)
+    (property "Datasheet" "~" (at 209.55 90.678 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 284eb4bd-8117-41f3-884f-aa1548a46d1e))
     (pin "2" (uuid 0125d2ff-fbb6-4e71-96ef-780ee7b3e9f2))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW16") (unit 1)
         )
@@ -2322,25 +2301,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 223.266 81.28 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 236.982 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a3e1ea6-e752-400c-b5e4-70cc942b09c4)
-    (property "Reference" "SW14" (at 221.996 76.2 0)
+    (property "Reference" "SW14" (at 235.712 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 223.266 82.804 0)
+    (property "Value" "SW_MX_HotSwap" (at 236.982 82.804 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 223.266 76.2 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 236.982 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 223.266 76.2 0)
+    (property "Datasheet" "~" (at 236.982 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 34c541f3-8e7d-437f-9c44-1a472bd91957))
     (pin "2" (uuid efed2233-9d3d-45b0-8d9e-7e720ecbe630))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW14") (unit 1)
         )
@@ -2366,7 +2345,7 @@
     (pin "1" (uuid 7baf9101-03f9-4e6d-a578-1d3b386d4180))
     (pin "2" (uuid 0dca2da4-9ad4-40d1-8e43-6e778739cb6b))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "C2") (unit 1)
         )
@@ -2391,7 +2370,7 @@
     )
     (pin "1" (uuid 043000f4-f56e-459b-9c14-e2ca4ce5110b))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR018") (unit 1)
         )
@@ -2417,7 +2396,7 @@
     (pin "1" (uuid edf9b157-afde-4bd5-bd66-fea755076217))
     (pin "2" (uuid d13ffb82-5ba6-4033-acba-7a8271de04de))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW11") (unit 1)
         )
@@ -2444,7 +2423,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "Logo1") (unit 1)
         )
@@ -2469,7 +2448,7 @@
     )
     (pin "1" (uuid c1afd414-636f-41bb-8a43-ed38abb18235))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR017") (unit 1)
         )
@@ -2477,25 +2456,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 250.698 66.802 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 209.55 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40bfcedb-6e12-41b1-b930-6cf5ade97766)
-    (property "Reference" "SW12" (at 249.428 61.722 0)
+    (property "Reference" "SW12" (at 208.28 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 250.698 68.326 0)
+    (property "Value" "SW_MX_HotSwap" (at 209.55 82.804 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 250.698 61.722 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 209.55 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.698 61.722 0)
+    (property "Datasheet" "~" (at 209.55 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0a685612-f5d3-4408-b952-8923064974c6))
     (pin "2" (uuid 79d084d5-2da5-4970-943e-0de5dac948a7))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW12") (unit 1)
         )
@@ -2520,7 +2499,7 @@
     )
     (pin "1" (uuid 3298ef2a-9310-4f75-869c-5d7e0f84d281))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR07") (unit 1)
         )
@@ -2528,25 +2507,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 223.266 95.758 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 236.982 95.758 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44db5ef4-44f1-406c-818c-7d91680a5638)
-    (property "Reference" "SW18" (at 221.996 90.678 0)
+    (property "Reference" "SW18" (at 235.712 90.678 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 223.266 97.282 0)
+    (property "Value" "SW_MX_HotSwap" (at 236.982 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 223.266 90.678 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 236.982 90.678 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 223.266 90.678 0)
+    (property "Datasheet" "~" (at 236.982 90.678 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 712ab140-b07c-406c-bce8-0fe980ae4d2c))
     (pin "2" (uuid 5d17d523-4374-4764-a627-edb5080dce0c))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW18") (unit 1)
         )
@@ -2574,7 +2553,7 @@
     (pin "3" (uuid 126c2c0e-c627-425b-84af-32a1155de935))
     (pin "4" (uuid 5b2a482e-d96e-4e69-9ae9-6f6a5ce26aa9))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB2") (unit 1)
         )
@@ -2602,7 +2581,7 @@
     (pin "3" (uuid f47e0900-0d50-4867-8dc2-67ea69fa27a2))
     (pin "4" (uuid 13af37ee-f20d-4b69-827b-505a01ccc483))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB11") (unit 1)
         )
@@ -2610,53 +2589,27 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 245.618 85.09 90) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 204.47 99.568 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c7cae8c-c4e3-4b77-aec4-0c5f43388b62)
-    (property "Reference" "D16" (at 243.078 85.09 0)
+    (property "Reference" "D16" (at 201.93 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 248.158 85.09 0)
+    (property "Value" "1N4148W" (at 207.01 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 250.063 85.09 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 208.915 99.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 245.618 85.09 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 204.47 99.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 139f7b15-9794-4d44-9f5d-daac6c643293))
     (pin "2" (uuid a53cb2c0-d817-41d7-b2e5-44d010779670))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 236.982 95.758 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 52ac98ec-7901-4e77-880d-ffcbe1cba79c)
-    (property "Reference" "SW19" (at 235.712 90.678 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SW_MX_HotSwap" (at 236.982 97.282 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 236.982 90.678 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 236.982 90.678 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f4d13992-fcb4-4915-b142-2a5a45d5624b))
-    (pin "2" (uuid 526d0dac-42cd-4afe-908b-623a40319c8a))
-    (instances
-      (project "UnOrthoDox 20 PCB"
-        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
-          (reference "SW19") (unit 1)
         )
       )
     )
@@ -2679,7 +2632,7 @@
     )
     (pin "1" (uuid df98fbc4-8a63-42c2-a8f5-a840495dbe0e))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#FLG01") (unit 1)
         )
@@ -2687,29 +2640,27 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Common:SK6812MINI-E") (at 81.788 241.046 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 56495e9c-7dc8-42ca-995c-ecbd3dec7233)
-    (property "Reference" "RGB19" (at 86.868 235.331 0)
-      (effects (font (size 1.27 1.27)) (justify right bottom))
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 209.55 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 56dafb1f-f747-46e7-a64d-c83548b1db24)
+    (property "Reference" "SW19" (at 208.28 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SK6812MINI-E" (at 83.058 246.761 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    (property "Value" "SW_MX_HotSwap" (at 209.55 110.744 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE" (at 83.058 248.666 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 209.55 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" (at 84.328 250.571 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    (property "Datasheet" "~" (at 209.55 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb1ab60c-3221-4aa5-95bf-5d7483d0274a))
-    (pin "2" (uuid ef61f074-778e-4a72-961b-e4be90297495))
-    (pin "3" (uuid df745cae-567f-465c-b358-aaf7abfa0270))
-    (pin "4" (uuid 089580bd-1ac8-4092-9fa1-dd092c102600))
+    (pin "1" (uuid 77c2238d-f744-4bc9-b67a-3a212d167f5c))
+    (pin "2" (uuid ad2b0504-11dc-4ca4-b9b6-94b54f1af435))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
-          (reference "RGB19") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
@@ -2732,7 +2683,7 @@
     )
     (pin "1" (uuid 79812eec-9b15-4b04-91ba-f94cf61b1e82))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR05") (unit 1)
         )
@@ -2760,7 +2711,7 @@
     (pin "3" (uuid 455e800a-1551-4f65-a420-f65d2b465447))
     (pin "4" (uuid 3a95822e-f2cd-461b-88ea-c7af4d9d173a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB9") (unit 1)
         )
@@ -2786,7 +2737,7 @@
     (pin "1" (uuid c61b738d-19f5-4ff0-94fa-92f9c0db1522))
     (pin "2" (uuid 3722f889-bd8d-4253-a9d5-c9663e8f5e91))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "C4") (unit 1)
         )
@@ -2811,7 +2762,7 @@
     )
     (pin "1" (uuid d00d0407-6953-4dd2-b978-2e8cc9007bd9))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR020") (unit 1)
         )
@@ -2836,7 +2787,7 @@
     )
     (pin "1" (uuid 5db462a4-f67f-4185-9aa9-cf6294d2f29a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR016") (unit 1)
         )
@@ -2862,7 +2813,7 @@
     (pin "1" (uuid df592dc5-5eb6-406b-8b5a-e2ec912a28cb))
     (pin "2" (uuid ddf81f28-4f8b-41b3-86b5-4925c551c4b8))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW6") (unit 1)
         )
@@ -2870,25 +2821,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 236.982 81.28 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 250.698 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 661ad3a8-3789-4371-88c2-0fa0d60a386f)
-    (property "Reference" "SW15" (at 235.712 76.2 0)
+    (property "Reference" "SW15" (at 249.428 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 236.982 82.804 0)
+    (property "Value" "SW_MX_HotSwap" (at 250.698 82.804 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 236.982 76.2 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 250.698 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 236.982 76.2 0)
+    (property "Datasheet" "~" (at 250.698 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 650e8e74-909b-4223-a2b0-1943a9f4ae87))
     (pin "2" (uuid f7f1690e-67ef-441e-8fae-0d9c3ce60b3c))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW15") (unit 1)
         )
@@ -2913,7 +2864,7 @@
     )
     (pin "1" (uuid cfeb0516-3dd6-426e-a049-c03b11bf4cf4))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR02") (unit 1)
         )
@@ -2921,25 +2872,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 204.47 99.568 270) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 218.186 99.568 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6779a436-588f-43f3-9e78-9ea5b710e148)
-    (property "Reference" "D17" (at 207.01 99.568 0)
+    (property "Reference" "D17" (at 220.726 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 201.93 99.568 0)
+    (property "Value" "1N4148W" (at 215.646 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 200.025 99.568 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 213.741 99.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 204.47 99.568 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 218.186 99.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f78c92f0-eb52-47f7-b284-d00d4568f280))
     (pin "2" (uuid cb5b0432-2164-4064-8a60-d3cfb5f30a77))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D17") (unit 1)
         )
@@ -2965,7 +2916,7 @@
     (pin "1" (uuid ab11e549-c734-4c45-b3e2-763db0a67a83))
     (pin "2" (uuid 28b4310b-6aa5-4d9e-a7ce-7bf5b5555c80))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW2") (unit 1)
         )
@@ -2993,7 +2944,7 @@
     (pin "3" (uuid 53e95359-5994-4b05-b568-79c039a320a7))
     (pin "4" (uuid f118b139-78f4-41d9-9011-f4c385dc326f))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB16") (unit 1)
         )
@@ -3019,7 +2970,7 @@
     (pin "1" (uuid cc47001a-5452-4dc4-b493-0862337fea8c))
     (pin "2" (uuid 3c2c50ed-5e47-49e8-a17f-6bc2501c5a5e))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW4") (unit 1)
         )
@@ -3047,7 +2998,7 @@
     (pin "3" (uuid e3466ed2-6487-4f1d-9b53-a2d04132c448))
     (pin "4" (uuid 436ca6e5-346d-4542-b0df-a41a43876a69))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB18") (unit 1)
         )
@@ -3072,7 +3023,7 @@
     )
     (pin "1" (uuid 6b13946f-41e3-429b-841d-39955ede87e2))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR019") (unit 1)
         )
@@ -3098,7 +3049,7 @@
     (pin "1" (uuid b69c3dde-8290-43b4-9a21-9efeeb9e59a9))
     (pin "2" (uuid d693f4f2-45bb-44df-8859-27cdb6d5c07a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW3") (unit 1)
         )
@@ -3126,7 +3077,7 @@
     (pin "3" (uuid 834171d8-5191-4d34-9711-93201916750f))
     (pin "4" (uuid 64aca229-3b1f-4568-9a04-c2b87762edf8))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB7") (unit 1)
         )
@@ -3134,25 +3085,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 218.186 99.568 90) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 231.902 99.568 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 742f52bd-0b07-4481-9317-badb909b1638)
-    (property "Reference" "D18" (at 215.646 99.568 0)
+    (property "Reference" "D18" (at 229.362 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 220.726 99.568 0)
+    (property "Value" "1N4148W" (at 234.442 99.568 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 222.631 99.568 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 236.347 99.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 218.186 99.568 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 231.902 99.568 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 14b37260-9276-4af5-9feb-ccc9dd573ef7))
     (pin "2" (uuid b7925832-a6bd-43ac-b77e-2359c3e1e5e5))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D18") (unit 1)
         )
@@ -3160,25 +3111,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 204.47 85.09 270) (mirror x) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 218.186 85.09 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77352e20-0a5c-4d7e-8c51-e90e001d5a04)
-    (property "Reference" "D13" (at 207.01 85.09 0)
+    (property "Reference" "D13" (at 220.726 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 201.93 85.09 0)
+    (property "Value" "1N4148W" (at 215.646 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 200.025 85.09 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 213.741 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 204.47 85.09 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 218.186 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 702c4510-e887-4baa-97d8-b21420f0d786))
     (pin "2" (uuid a14454ff-7ca3-435e-b212-6abd1f973a93))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D13") (unit 1)
         )
@@ -3209,9 +3160,33 @@
     (pin "S1" (uuid d5dab400-b954-4646-a0b9-14d42a2be905))
     (pin "S2" (uuid e859290f-6ad9-46ba-9a69-1677b0f441ba))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "ENC1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Keyboard Switches:Stabilizer_2u_MX") (at 242.57 145.542 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7e0fb843-0331-4564-9d1f-8bf5f28982b4)
+    (property "Reference" "ST1" (at 247.65 144.907 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "Stabilizer_2u_MX" (at 247.65 147.447 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u" (at 242.57 145.542 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 242.57 145.542 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (instances
+      (project "UnOrthoDox 17 PCB"
+        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
+          (reference "ST1") (unit 1)
         )
       )
     )
@@ -3256,35 +3231,9 @@
     (pin "8" (uuid a3af50c6-465d-4957-9511-d2176bd59ca7))
     (pin "9" (uuid 07471f01-9ddf-4e96-8c3c-522ea2f0c01c))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RZ1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N4148W") (at 245.618 99.568 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7f0bfea1-de6f-44a5-b992-fb8f9c9248aa)
-    (property "Reference" "D20" (at 243.078 99.568 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N4148W" (at 248.158 99.568 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 250.063 99.568 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 245.618 99.568 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 043c9b96-57ec-48bd-ac08-eec5df7467de))
-    (pin "2" (uuid 02799e74-0c11-4710-9f46-e2d8819b5d2a))
-    (instances
-      (project "UnOrthoDox 20 PCB"
-        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
-          (reference "D20") (unit 1)
         )
       )
     )
@@ -3308,7 +3257,7 @@
     (pin "1" (uuid 0deda483-e51f-46ea-8faa-d910638ff120))
     (pin "2" (uuid 40bf690f-32e8-4547-a4a7-7be0fb16f229))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D11") (unit 1)
         )
@@ -3336,9 +3285,37 @@
     (pin "3" (uuid 741e537e-3aba-4b3e-b517-740ce8d1bcf0))
     (pin "4" (uuid 8591227f-c7b4-4b27-b7e0-2de5268d7ca0))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Keyboard Common:SK6812MINI-E") (at 103.124 241.046 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8a767f46-5e24-4966-a441-3d1a8e68c1dd)
+    (property "Reference" "RGB19" (at 108.204 235.331 0)
+      (effects (font (size 1.27 1.27)) (justify right bottom))
+    )
+    (property "Value" "SK6812MINI-E" (at 104.394 246.761 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE" (at 104.394 248.666 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" (at 105.664 250.571 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "1" (uuid 9489f4c7-1c8a-497a-a334-6ecd48b6560e))
+    (pin "2" (uuid 2797ccb8-2798-40cf-b548-7b5ccce19f9e))
+    (pin "3" (uuid 8c5b305f-a12e-42a6-9548-c3728af0071a))
+    (pin "4" (uuid bde251d1-41cb-4387-b2b8-c100b4946cf2))
+    (instances
+      (project "UnOrthoDox 17 PCB"
+        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
+          (reference "RGB19") (unit 1)
         )
       )
     )
@@ -3364,7 +3341,7 @@
     (pin "3" (uuid 0597c3af-8833-4a6d-947f-61030e47db48))
     (pin "4" (uuid 429193ed-c2a3-4c12-b39b-0562191413b1))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB1") (unit 1)
         )
@@ -3392,7 +3369,7 @@
     (pin "3" (uuid 383ffb61-50d9-4fbf-976e-4f3aaf5b1b72))
     (pin "4" (uuid 3b37bd34-3114-43a1-b81a-5abfab1f9903))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB3") (unit 1)
         )
@@ -3418,7 +3395,7 @@
     (pin "1" (uuid 86cab825-4815-4af2-a6eb-71217b933245))
     (pin "2" (uuid 1726e825-056d-44ea-8027-742672e86ab1))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW9") (unit 1)
         )
@@ -3426,25 +3403,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 245.618 70.612 90) (unit 1)
+  (symbol (lib_id "Diode:1N4148W") (at 204.47 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2093e15-6be6-4a25-bb02-762e4431b534)
-    (property "Reference" "D12" (at 243.078 70.612 0)
+    (property "Reference" "D12" (at 201.93 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 248.158 70.612 0)
+    (property "Value" "1N4148W" (at 207.01 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 250.063 70.612 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 208.915 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 245.618 70.612 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 204.47 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8a912dc6-0ca1-48f5-b283-67e8653f2f82))
     (pin "2" (uuid a662f147-341a-482f-a971-11362e8d55ba))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D12") (unit 1)
         )
@@ -3472,7 +3449,7 @@
     (pin "3" (uuid 6e36d38c-616f-431b-82b5-60fea4c6903a))
     (pin "4" (uuid 2e2057d0-4309-46ea-b6f7-adea8366cb55))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB15") (unit 1)
         )
@@ -3500,7 +3477,7 @@
     (pin "3" (uuid f7c10642-9942-4d96-9972-a4841c710476))
     (pin "4" (uuid d50a3a44-2a15-43c9-a72a-f5e919ebc009))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB8") (unit 1)
         )
@@ -3526,7 +3503,7 @@
     (pin "1" (uuid fb979de1-cf6b-4d09-b308-460720f21486))
     (pin "2" (uuid 1c8ae219-a062-4e86-a61f-a27bd3f72416))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW1") (unit 1)
         )
@@ -3554,35 +3531,9 @@
     (pin "3" (uuid 335ff81d-1ebe-4333-86d4-bcc99b8ff996))
     (pin "4" (uuid e33310f6-63d2-48ba-a40b-141b416643b8))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 250.698 95.758 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ac531abd-a165-42c1-8abf-c0d628babe64)
-    (property "Reference" "SW20" (at 249.428 90.678 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SW_MX_HotSwap" (at 250.698 97.282 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 250.698 90.678 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 250.698 90.678 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ae953464-b400-42fb-a148-f7017ec98a19))
-    (pin "2" (uuid 5edfa98c-8588-413c-8c1c-d4ff67eafa31))
-    (instances
-      (project "UnOrthoDox 20 PCB"
-        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
-          (reference "SW20") (unit 1)
         )
       )
     )
@@ -3606,7 +3557,7 @@
     (pin "1" (uuid afb6e35c-6225-416f-bde5-cc445ff947c7))
     (pin "2" (uuid 6cb633a0-8f42-42d4-934e-78eef20b814f))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D6") (unit 1)
         )
@@ -3632,7 +3583,7 @@
     (pin "1" (uuid f91d6994-c79c-41cf-92bf-0a1605f0b0e9))
     (pin "2" (uuid 177f3d29-dbd4-4993-9b22-d63583b29673))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW5") (unit 1)
         )
@@ -3657,7 +3608,7 @@
     )
     (pin "1" (uuid 0f1214e0-1250-4169-bfcf-5b6be81e7e6a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR014") (unit 1)
         )
@@ -3688,7 +3639,7 @@
     (pin "S1" (uuid dd40ac08-bb39-45bc-8347-d2583f7ea543))
     (pin "S2" (uuid 50d8cfb5-1231-47e0-b984-594db34449b3))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "ENC2") (unit 1)
         )
@@ -3716,7 +3667,7 @@
     (pin "3" (uuid 3b48a178-df47-42c2-b2d3-f9f5a890ed59))
     (pin "4" (uuid db73187e-b092-44d7-ab17-18103b6b7340))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "RGB12") (unit 1)
         )
@@ -3742,7 +3693,7 @@
     (pin "1" (uuid b3a925a9-06c2-4376-b7fb-ca73ad1f863b))
     (pin "2" (uuid 68e6cc87-c9bd-443e-8ad0-68cae72a1e81))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D10") (unit 1)
         )
@@ -3767,7 +3718,7 @@
     )
     (pin "1" (uuid 871c4cb9-280c-483a-9c98-408da10ec6b1))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR011") (unit 1)
         )
@@ -3792,7 +3743,7 @@
     )
     (pin "1" (uuid 66d17358-2171-40c7-8950-6b7026f18fd9))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR06") (unit 1)
         )
@@ -3800,25 +3751,25 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 209.55 95.758 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 223.266 95.758 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d2a49141-7259-4569-9caf-6359f148d21b)
-    (property "Reference" "SW17" (at 208.28 90.678 0)
+    (property "Reference" "SW17" (at 221.996 90.678 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 209.55 97.282 0)
+    (property "Value" "SW_MX_HotSwap" (at 223.266 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 209.55 90.678 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 223.266 90.678 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 209.55 90.678 0)
+    (property "Datasheet" "~" (at 223.266 90.678 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1a1158c1-e2eb-4a53-bf81-2eaca8b29b16))
     (pin "2" (uuid c08ac4c4-13e5-48c2-8459-b76025cde264))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW17") (unit 1)
         )
@@ -3844,7 +3795,7 @@
     (pin "1" (uuid b0854734-feb6-4abc-8587-2017ac845ecb))
     (pin "2" (uuid d174782c-abbc-45fe-bd6d-7307afe39248))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW7") (unit 1)
         )
@@ -3869,7 +3820,7 @@
     )
     (pin "1" (uuid f937772d-0322-48f0-8d48-10d7da058329))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR04") (unit 1)
         )
@@ -3895,7 +3846,7 @@
     (pin "1" (uuid 7f26618a-3587-4c0f-a875-2b10796aa43b))
     (pin "2" (uuid e67c02fe-2920-4dcb-b02f-b3d0e8823808))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "C3") (unit 1)
         )
@@ -3920,7 +3871,7 @@
     )
     (pin "1" (uuid 686d42d0-4265-4a9d-a4d3-ad74219bf4b4))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR09") (unit 1)
         )
@@ -3945,9 +3896,33 @@
     )
     (pin "1" (uuid 93cddc1a-90d5-4a63-83df-fec1c9a1275a))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Keyboard Switches:Stabilizer_2u_MX") (at 316.484 134.112 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e7a50e0a-d122-4bdc-b89e-900319c8e042)
+    (property "Reference" "ST3" (at 321.564 133.477 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "Stabilizer_2u_MX" (at 321.564 136.017 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u" (at 316.484 134.112 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 316.484 134.112 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (instances
+      (project "UnOrthoDox 17 PCB"
+        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
+          (reference "ST3") (unit 1)
         )
       )
     )
@@ -3971,7 +3946,7 @@
     (pin "1" (uuid d81e6c27-8eeb-4f19-8f2a-e7c687cd31e0))
     (pin "2" (uuid 72956f9a-e828-4a22-99a1-b983130f141e))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D3") (unit 1)
         )
@@ -3979,55 +3954,27 @@
     )
   )
 
-  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 250.698 52.07 0) (unit 1)
+  (symbol (lib_id "Keyboard Switches:SW_MX_HotSwap") (at 250.698 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e86a18c3-6eb6-460a-a028-113a56d16059)
-    (property "Reference" "SW8" (at 249.428 46.99 0)
+    (property "Reference" "SW8" (at 249.428 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_MX_HotSwap" (at 250.698 53.594 0)
+    (property "Value" "SW_MX_HotSwap" (at 250.698 68.834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 250.698 46.99 0)
+    (property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible" (at 250.698 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.698 46.99 0)
+    (property "Datasheet" "~" (at 250.698 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fb9c01db-5bba-4784-ab64-0cece0515399))
-    (pin "2" (uuid 4f4803ce-0466-40b7-9992-f380d9969037))
+    (pin "1" (uuid dff12d06-09db-4344-a361-5b24e685254a))
+    (pin "2" (uuid ad4f0f1b-32a2-4f2b-815a-6aa9234363b3))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Keyboard Common:SK6812MINI-E") (at 103.124 241.046 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e9aef704-018f-4ae4-aa0d-c044c4a6299f)
-    (property "Reference" "RGB20" (at 108.204 235.331 0)
-      (effects (font (size 1.27 1.27)) (justify right bottom))
-    )
-    (property "Value" "SK6812MINI-E" (at 104.394 246.761 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE" (at 104.394 248.666 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" (at 105.664 250.571 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid bd211116-b9f4-430c-98cc-4d4714364834))
-    (pin "2" (uuid ec687920-9209-4952-a2f3-070bdc40c318))
-    (pin "3" (uuid 23df245f-79f9-40cf-b291-3acaecb4d93a))
-    (pin "4" (uuid f043bd24-e50a-4f9c-9241-ec5fe7d3bc4c))
-    (instances
-      (project "UnOrthoDox 20 PCB"
-        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
-          (reference "RGB20") (unit 1)
         )
       )
     )
@@ -4051,7 +3998,7 @@
     (pin "1" (uuid cd62c232-4cfc-4bda-8136-7f26ae9ab77a))
     (pin "2" (uuid 101bd3bd-ca7d-45f6-98a8-b635e3f2da0e))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "C1") (unit 1)
         )
@@ -4077,7 +4024,7 @@
     (pin "1" (uuid f91bf12e-a562-45dc-b65b-c02f25a1c922))
     (pin "2" (uuid 9b0e6d40-b020-4691-bcb6-96bf3974a823))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D7") (unit 1)
         )
@@ -4104,9 +4051,33 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "Logo2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Keyboard Switches:Stabilizer_2u_MX") (at 275.59 141.478 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f30781c7-fa31-4a75-b278-6525431ebba2)
+    (property "Reference" "ST2" (at 280.67 140.843 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "Stabilizer_2u_MX" (at 280.67 143.383 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u" (at 275.59 141.478 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 141.478 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (instances
+      (project "UnOrthoDox 17 PCB"
+        (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
+          (reference "ST2") (unit 1)
         )
       )
     )
@@ -4129,7 +4100,7 @@
     )
     (pin "1" (uuid 432961c7-d83a-434f-9ae2-20a6978a0891))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#FLG02") (unit 1)
         )
@@ -4158,7 +4129,7 @@
     (pin "4" (uuid 39162817-5f28-464c-ab81-f2f11635449b))
     (pin "5" (uuid 411c87e0-7550-4297-aac6-5f16fd7802b1))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "U1") (unit 1)
         )
@@ -4184,7 +4155,7 @@
     (pin "1" (uuid 76a66d4a-424c-4e54-a1c5-0872f33db3cc))
     (pin "2" (uuid 9ac0f0a5-51c2-4914-b586-2c5eed72bf88))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D2") (unit 1)
         )
@@ -4209,7 +4180,7 @@
     )
     (pin "1" (uuid 8fbaaaf7-3e31-4957-9f39-aab70e4c29c5))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "#PWR03") (unit 1)
         )
@@ -4217,25 +4188,25 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148W") (at 245.618 55.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Diode:1N4148W") (at 245.618 63.5 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f7d44456-9f3e-4a2d-8027-ff09a14caeac)
-    (property "Reference" "D8" (at 243.078 55.88 0)
+    (property "Reference" "D8" (at 243.078 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148W" (at 248.158 55.88 0)
+    (property "Value" "1N4148W" (at 248.158 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 250.063 55.88 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 250.063 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 245.618 55.88 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf" (at 245.618 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f014e68-5792-416f-b1fc-754b2dc35ef8))
-    (pin "2" (uuid bbe20ea6-d840-4b32-9a16-60016acd4437))
+    (pin "1" (uuid 458d6f8e-8ef3-4616-9266-b4d33b1a95fb))
+    (pin "2" (uuid bba37dd7-9dd1-450e-86af-81d11fe8881c))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D8") (unit 1)
         )
@@ -4261,7 +4232,7 @@
     (pin "1" (uuid 1fea1f6b-8d14-4be5-b61f-83b29e653ce3))
     (pin "2" (uuid de108ce9-b621-4d01-8a41-ef13de7077e4))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "SW10") (unit 1)
         )
@@ -4287,7 +4258,7 @@
     (pin "1" (uuid 95b3da34-7ceb-4a95-beda-3ec4f96880cb))
     (pin "2" (uuid 8a9637a9-f505-4fd6-85ed-e5d206dafd6d))
     (instances
-      (project "UnOrthoDox 20 PCB"
+      (project "UnOrthoDox 17 PCB"
         (path "/ad76fe05-ae70-4290-9ee8-ebf5c7ee5105"
           (reference "D9") (unit 1)
         )

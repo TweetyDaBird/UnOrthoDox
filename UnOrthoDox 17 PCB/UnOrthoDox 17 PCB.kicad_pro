@@ -75,7 +75,7 @@
         "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
+        "hole_near_hole": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -409,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UnOrthoDox 20 PCB.kicad_pro",
+    "filename": "UnOrthoDox 17 PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
